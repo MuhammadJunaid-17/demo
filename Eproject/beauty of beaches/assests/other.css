@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300&display=swap');
+*{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/* navbarsec */
+
+.header{
+    height: 680px;
+    width: 100%;
+    background: url(images/n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid black;
+  
+}
+nav{
+    position: fixed; 
+}
+
+.navbarbg{
+    background-color:transparent;
+    height: 60px;  
+}
+
+.navword{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: rgba(0, 0, 0, 0.515);
+  color: white;
+  border-radius: 10px;
+}
+
+
+.header1{
+    margin-left: 52%;
+    margin-top: 3%;
+}
+
+.logn{
+  margin-top: 7%;
+  margin-left: 1%;
+}
+
+.nav-text{
+font-size: 16px;
+}
+
+.nav-text:hover{
+    background-color: rgb(112, 196, 230);
+    font-weight: bold;
+    border: 2px solid rgb(107, 185, 216);
+    border-radius: 10px;
+}
+
+.navtext{
+    background:linear-gradient(skyblue,skyblue);
+}
+  
+/* close nav sec */
+
+/* gallery css open */
+
+.gal{ 
+    margin-top: 13px;
+
+}
+.bo{
+    border: 5px solid black;
+    padding-top: 20px;
+}
+
+/* gallery sec close */
+
+/* about us sec start */
+
+
+
+/* mission sec start */
+
+.miss{
+
+width: 100%;
+background: url(images/about2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 400px;
+   
+}
+
+.cont{ 
+    border: 2px black solid;
+    width: 100%;
+    text-justify: auto;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.44);
+     color: white;
+     height: 400px;
+     padding-top: 150px;
+     font-weight: bold;
+     letter-spacing: 1px;
+}
+.cont p span{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.cont p{
+    font-size: 15px;
+}
+/* mission sec close */
+
+/* purpose sec start */
+.j{
+    margin-top: 14px;
+}
+
+.c h1{
+    text-align: center ;
+}
+
+.cb{ text-align: center;}
+
+.cardt{
+    font-weight: bold;
+   background-color: white;
+   border-radius: 10px;
+}
+
+    
+/* purpose sec close */
+
+
+
+/* our team sec start */
+
+
+
+
+
+
+
+
+.further1{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .further1 h1{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .fur{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .furho:hover {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(105, 194, 230);
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+.p{
+   background-color: rgb(83, 183, 222);
+   border-radius: 20px;
+   
+}
+
+
+
+
+.ct{
+
+    text-align: center;
+    justify-content: center;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+
+}
+
+.cte{
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 25px;
+}
+.ro2{
+    margin-top: 10px;
+}
+/*our team sec end */
+
+
+
+/* about us close close */
+
+/* faq sec start */
+
+.n{
+    margin-top: 13px;
+}
+.bol h2 button{
+
+    font-size: 25px;
+}
+.faqsp{
+    font-weight: bold;
+}
+.faqbo{
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(60, 195, 248);
+    color: white; 
+font-size: 20px;
+}
+
+/* faq sec close */
+
+/* east sec start */
+.dog h5{
+    font-size: 45px ;
+   font-weight: bold;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.dog  span{
+    background-color:rgba(0, 0, 0, 0.668);
+    border-radius: 10px;
+}
+.dog p{
+font-size: 23px;
+color: white;
+
+}
+.pa h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.pc{
+    
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.des{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.pa h6{
+    text-align: center;
+    justify-content: center;
+}
+
+.pco{
+    font-size: 23px;
+   background-color:rgb(75, 183, 225);
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    border: black 2px solid;
+}
+.pco:hover{
+    font-size: 27px;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    
+}
+.jd{
+    margin-top: 25px;
+    border: 2px solid black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.mol{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fom{
+    text-align: center;
+    justify-content: center;
+   font-size: 17px;
+}
+.ii{
+    padding-top: 10px ;
+    font-weight: bold;
+}
+.jk{
+    border-radius: 8px;
+   
+}
+/* east sec close */
+
+
+/* search  sec start */
+
+
+.se{
+    margin-top: 14px;
+    text-align: center;
+    justify-content: center;
+    /* font-weight: bold; */
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+   
+}
+
+
+.iu{
+    margin-top: 30px;
+    width: 30%;
+    height: 50px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.iu:hover{
+    background-color: rgba(240, 248, 255, 0.932);
+}
+
+
+/* search sec close */
+
+
+
+
+
+/* background picture */
+
+.back{
+    background-image: url(images/search.jpg);
+
+    border-radius: 10px;
+}
+
+
+
+/* background picture */
+
+
+
+
+
+
+/* main footer sec open */
+
+.f{
+    margin-top: 13px;
+    border: 2px solid black;
+     }
+    
+    
+     /* main footer sec close */
